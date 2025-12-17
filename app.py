@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.header("Price Estimation Based on Competitor Data Using Python")
+st.header("Competitor Analysis and Fee Prediction")
 image_url = "https://uxprice.com/blog/wp-content/uploads/2020/08/depositphotos_185356366_xl-2015-1536x1024.jpg"
 st.markdown(
     f"""
@@ -119,6 +119,7 @@ if st.button("Predict"):
     st.success(f"🎯 Predicted Max Fee: {round(max_fee, 2)} ")
 
     
+
 
 
 
